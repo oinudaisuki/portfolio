@@ -34,6 +34,6 @@ body {
 	padding: 13px 0;
 }
 
-.header-memu li a :hover {
+.header-memu li a:hover {
 	color: #ffffff;
 }
