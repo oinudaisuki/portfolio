@@ -3,8 +3,13 @@ body {
 	color: #000022;
 }
 
+.main-title {
+	text-align: center;
+}
+
 .header-menu ul {
 	list-style-type: none;
+	text-align: center;
 }
 
 .header-menu li {
