@@ -101,12 +101,14 @@ table .sns-name {
 .skill-item {
 	display: inline-block;
 	background-color: #ffffff;
-	padding: 20px;
 	margin: 10px;
-	width: 200px;
+	width: 300px;
 }
 
 .skill-item h4 {
+	display: inline-block;
+	padding: 0 20px;
+	margin: 5px 0;
 	color: #778899;
 }
 
