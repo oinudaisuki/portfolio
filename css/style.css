@@ -66,6 +66,10 @@ body {
 	padding: 0 10%;
 }
 
+.container table {
+	margin: auto 0;
+}
+
 .content-wrapper {
 	padding: 60px 0;
 }
@@ -94,6 +98,11 @@ body {
 	background-color: #ffffff;
 	padding: 20px;
 	margin: 10px;
+	width: 200px;
+}
+
+.skill-item h4 {
+	color: #778899;
 }
 
 .works-wrapper {
@@ -102,11 +111,21 @@ body {
 	margin-bottom: 20px;
 }
 
+.work-item {
+	padding: 20px;
+	margin: 10px;
+	width: 200px;
+}
+
 .blog-wrapper {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 20px;
 }
 
-
+.blog-item {
+	padding: 20px;
+	margin: 10px;
+	width: 200px;
+}
 
