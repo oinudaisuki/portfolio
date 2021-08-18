@@ -14,8 +14,8 @@ body {
 }
 
 .header-memu ul {
-	list-style-type: none;
 	text-align: center;
+	list-style-type: none;
 	margin: 20px 20px;
 
 }
@@ -26,10 +26,10 @@ body {
 
 .header-memu li a {
 	color: #f5f5f5;
-	display: block;
-	height: 100%;
 	font-weight: bold;
 	text-decoration: none;
+	display: block;
+	height: 100%;
 	padding: 13px 15px;
 }
 
@@ -38,8 +38,8 @@ body {
 }
 
 .top {
-	height: 600px;
 	display: flex;
+	height: 600px;
 	justify-content: center;
 	align-items: center;
 }
@@ -50,11 +50,25 @@ body {
 
 .top-inner h1 {
 	font-weight: lighter;
+	letter-spacing: 0.1rem;
 	margin: 0;
 }
 
 .top-inner p {
 	color: #778899;
+	letter-spacing: 0.2rem;
 	text-align: center;
 	margin: 0;
+}
+
+.container h3{
+	color: #778899;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.about-wrapper {
+	display: flex;
+	justify-content: center;
 }
