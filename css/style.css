@@ -61,14 +61,37 @@ body {
 	margin: 0;
 }
 
-.container h3{
+.container {
+	display: block;
+	padding: 0 10%;
+}
+
+.content-wrapper {
+	padding: 60px 0;
+}
+
+.content-wrapper h3{
 	color: #778899;
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 45px;
 }
 
+.content-wrapper {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 .about-wrapper {
 	display: flex;
 	justify-content: center;
+}
+
+.contact-text p {
+	text-align: center;
+}
+
+.contact-text table {
+	margin-top: 10px;
+	margin: auto 0;
 }
