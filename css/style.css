@@ -11,13 +11,14 @@ body {
 
 .header-memu {
 	background-color: #778899;
-	padding: 10px 0;
-	margin: 10px 10px;
 }
 
 .header-memu ul {
 	list-style-type: none;
 	text-align: center;
+	padding: 3px 0;
+	margin: 10px 10px;
+
 }
 
 .header-memu li {
