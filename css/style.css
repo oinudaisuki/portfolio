@@ -99,6 +99,7 @@ table .sns-name {
 }
 
 .skill-item {
+	display: inline-block;
 	background-color: #ffffff;
 	padding: 20px;
 	margin: 10px;
