@@ -37,3 +37,16 @@ body {
 .header-memu li a:hover {
 	color: #ffffff;
 }
+
+.top-inner {
+	height: 600px;
+	text-align: center;
+}
+
+.top-inner h1 {
+	font-weight: lighter;
+}
+
+.top-inner p {
+	color: #778899;
+}
