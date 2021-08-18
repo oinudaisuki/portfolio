@@ -1,6 +1,7 @@
 body {
 	background-color: #f5f5f5;
 	color: #000022;
+	width: 100%;
 }
 
 .main-title {
@@ -22,7 +23,6 @@ body {
 
 .header-memu li {
 	display: inline-block;
-	padding-right: 30px;
 }
 
 .header-memu li a {
@@ -31,22 +31,28 @@ body {
 	height: 100%;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 13px 0;
+	padding: 13px 15px;
 }
 
 .header-memu li a:hover {
 	color: #ffffff;
 }
 
-.top-inner {
+.top {
 	height: 600px;
-	text-align: center;
+}
+
+.top-inner {
+	display: flex;
+	align-items: center;
 }
 
 .top-inner h1 {
 	font-weight: lighter;
+	margin: 0;
 }
 
 .top-inner p {
 	color: #778899;
+	margin: 0;
 }
