@@ -90,6 +90,12 @@ body {
 	margin-bottom: 20px;
 }
 
+.skill-item {
+	background-color: #ffffff;
+	padding: 20px;
+	margin: 10px;
+}
+
 .works-wrapper {
 	display: flex;
 	justify-content: center;
