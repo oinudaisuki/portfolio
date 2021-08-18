@@ -117,6 +117,11 @@ table .sns-name {
 	margin: 0 auto;
 }
 
+.skill-img img {
+	width: 25%;
+	height: auto;
+}
+
 .works-wrapper {
 	display: flex;
 	justify-content: center;
