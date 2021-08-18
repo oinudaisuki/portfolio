@@ -4,8 +4,14 @@ body {
 }
 
 .main-title {
-	text-align: center;
 	color: #778899;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+.header-memu {
+	background-color: #778899;
+	margin: 10px 10px;
 }
 
 .header-memu ul {
@@ -16,4 +22,10 @@ body {
 .header-memu li {
 	display: inline-block;
 	padding-right: 30px;
+}
+
+.header-memu li a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
 }
