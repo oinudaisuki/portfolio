@@ -5,13 +5,15 @@ body {
 
 .main-title {
 	text-align: center;
+	color: #778899;
 }
 
-.header-menu ul {
+.header-memu ul {
 	list-style-type: none;
 	text-align: center;
 }
 
-.header-menu li {
-	display: block;
+.header-memu li {
+	display: inline-block;
+	padding-right: 30px;
 }
