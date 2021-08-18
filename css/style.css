@@ -83,3 +83,24 @@ body {
 	justify-content: center;
 	margin-bottom: 20px;
 }
+
+.skills-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.works-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.blog-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+
+
