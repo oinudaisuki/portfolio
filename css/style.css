@@ -1,7 +1,6 @@
 body {
 	background-color: #f5f5f5;
 	color: #000022;
-	width: 100%;
 }
 
 .main-title {
@@ -40,11 +39,12 @@ body {
 
 .top {
 	height: 600px;
+	display: flex;
+	align-items: center;
 }
 
 .top-inner {
-	display: flex;
-	align-items: center;
+	display: block;
 }
 
 .top-inner h1 {
