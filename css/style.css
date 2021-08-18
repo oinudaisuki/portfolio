@@ -105,11 +105,16 @@ table .sns-name {
 	width: 300px;
 }
 
-.skill-item h4 {
+.skill-item h4, .skill-item p {
 	display: inline-block;
 	padding: 0 20px;
 	margin: 5px 0;
 	color: #778899;
+}
+
+.skill-img {
+	display: inline-block;
+	margin: 0 auto;
 }
 
 .works-wrapper {
