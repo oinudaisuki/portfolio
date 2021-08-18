@@ -114,7 +114,7 @@ table .sns-name {
 
 .skill-img {
 	display: block;
-	margin: 0 auto;
+	text-align: center;
 }
 
 .skill-img img {
