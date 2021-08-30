@@ -157,6 +157,14 @@ table .sns-name {
 }
 
 a.readmore-link {
+	color: #778899;
 	text-decoration: none;
 	font-weight: bold;
+	display: block;
+	height: 100%;
+	padding: 13px 15px;
+}
+
+a.readmore-link:hover {
+	color: #6e7f8f;
 }
