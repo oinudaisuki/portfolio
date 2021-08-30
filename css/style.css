@@ -168,3 +168,8 @@ a.readmore-link {
 a.readmore-link:hover {
 	color: #6e7f8f;
 }
+
+.works-wrapper img {
+	width: 70%;
+	height: auto;
+}
