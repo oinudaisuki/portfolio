@@ -90,6 +90,7 @@ table .sns-name {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 20px;
+	background-color: #ffffff;
 }
 
 .skills-wrapper {
