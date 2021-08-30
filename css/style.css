@@ -93,6 +93,10 @@ table .sns-name {
 	background-color: #ffffff;
 }
 
+.profile-image {
+	padding-left: 50px;
+}
+
 .skills-wrapper {
 	display: flex;
 	justify-content: center;
