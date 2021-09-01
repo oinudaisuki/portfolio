@@ -95,6 +95,8 @@ table .sns-name {
 
 .profile-image {
 	padding-left: 50px;
+	width: 70%;
+	height: auto;
 }
 
 .skills-wrapper {
