@@ -97,8 +97,12 @@ table .sns-name {
 	background-color: #ffffff;
 }
 
-.profile-image {
+.profile-img {
+	display: block;
 	padding-left: 50px;
+}
+
+.profile-img img {
 	width: 70%;
 	height: auto;
 }
