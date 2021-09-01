@@ -98,14 +98,13 @@ table .sns-name {
 }
 
 .about-text {
-	width: 30%;
+	width: 40%;
 }
 
 .profile-img {
 	display: block;
 	width: 30%;
 	padding: 20px;
-	margin-left: 30px;
 }
 
 .profile-img img {
