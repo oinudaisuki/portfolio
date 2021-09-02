@@ -208,15 +208,13 @@ table .sns-name {
 }
 
 a.readmore-link {
-	color: #778899;
-	text-decoration: none;
 	font-weight: bold;
 	display: block;
 	height: auto;
 	padding: 13px 15px;
 }
 
-a.sns-link {
+a.readmore-link, a.sns-link {
 	color: #000022;
 	text-decoration: none;
 }
