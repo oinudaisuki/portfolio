@@ -8,7 +8,7 @@ body {
 }
 
 main {
-	animation: fadein 1.5s forwards;
+	animation: fadein 2s forwards;
 }
 
 @keyframes fadein {
