@@ -215,15 +215,16 @@ a.readmore-link {
 	padding: 13px 15px;
 }
 
-a.readmore-link:hover {
+a.sns-link {
+	color: #778899;
+	text-decoration: none;
+}
+
+a.readmore-link:hover, a.sns-link:hover {
 	color: #6e7f8f;
 }
 
 .works-wrapper img {
 	width: 70%;
 	height: auto;
-}
-
-.sns-link {
-	text-decoration: none;
 }
