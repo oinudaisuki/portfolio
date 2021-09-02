@@ -106,15 +106,13 @@ table .sns-name {
 	padding: 20px;
 	margin-bottom: 20px;
 	background-color: #ffffff;
-	text-align: center;
 }
 
 .about-text {
 	display: inline-block;
 	vertical-align: top;
-	justify-content: center;
 	width: auto;
-	padding-left: 20px;
+	padding-right: 20px;
 	margin-top: 0;
 }
 
