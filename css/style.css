@@ -105,16 +105,17 @@ table .sns-name {
 
 .about-text {
 	width: 40%;
+	margin-top: 0;
 }
 
 .profile-img {
-	display: block;
-	padding: 20px;
+	text-align: center;
+	margin-top: 0;
+	width: 40%;
 }
 
 .profile-img img {
-	width: 100px;
-	height: auto;
+	width: 70%;
 }
 
 .skills-wrapper {
