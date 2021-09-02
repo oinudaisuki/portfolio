@@ -4,10 +4,10 @@ html {
 }
 
 header {
-	animation: fadein 1.5s forwards;
 }
 body {
 	color: #000022;
+	animation: fadein 1.5s forwards;
 }
 
 @keyframes fadein {
