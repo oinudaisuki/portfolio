@@ -99,23 +99,27 @@ table .sns-name {
 .about-wrapper {
 	display: flex;
 	justify-content: center;
+}
+
+.about-value {
+	padding: 10px;
 	margin-bottom: 20px;
 	background-color: #ffffff;
 }
 
 .about-text {
-	width: 40%;
+	width: 30%;
 	margin-top: 0;
 }
 
 .profile-img {
 	text-align: center;
 	margin-top: 0;
-	width: 40%;
+	width: 10%;
 }
 
 .profile-img img {
-	width: 70%;
+	width: 200px;
 }
 
 .skills-wrapper {
