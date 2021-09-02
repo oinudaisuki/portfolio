@@ -102,20 +102,24 @@ table .sns-name {
 }
 
 .about-value {
+	width: 60%;
 	padding: 10px;
 	margin-bottom: 20px;
 	background-color: #ffffff;
 }
 
 .about-text {
-	width: 30%;
+	display: inline-block;
+	justify-content: center;
+	width: 50%;
 	margin-top: 0;
 }
 
 .profile-img {
+	display: inline-block;
 	text-align: center;
 	margin-top: 0;
-	width: 10%;
+	width: 20%;
 }
 
 .profile-img img {
