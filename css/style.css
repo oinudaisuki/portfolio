@@ -11,6 +11,10 @@ main {
 	animation: fadein 2s forwards;
 }
 
+p {
+	line-height: 2;
+}
+
 @keyframes fadein {
 	0% {opacity: 0}
 	100% {opacity: 1}
@@ -218,4 +222,8 @@ a.readmore-link:hover {
 .works-wrapper img {
 	width: 70%;
 	height: auto;
+}
+
+.sns-link {
+	text-decoration: none;
 }
