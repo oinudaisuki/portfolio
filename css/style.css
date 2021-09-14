@@ -29,6 +29,16 @@ p {
 }
 @media screen and (max-width: 480px) {
 	/* スマホ用 */
+	.top-inner h1 {
+		font-size: 50px;
+	}
+
+	.top-inner p {
+		font-size: 30px;
+	}
+	.content-wrapper h3 {
+		font-size: 45px;
+	}
 }
 .main-title {
 	color: #778899;
