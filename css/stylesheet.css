@@ -238,7 +238,7 @@ a.readmore-link:hover, a.sns-link:hover {
 }
 
 /* スマホ用 */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
 	body {
 		font-size: 32px;
 	}
