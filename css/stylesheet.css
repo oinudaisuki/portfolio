@@ -10,6 +10,243 @@ html {
 body {
 	color: #000022;
 	font-family: "Meiryo", sans-serif;
+	font-size: 30px;
+}
+
+main {
+	animation: fadein 2s forwards;
+}
+
+p {
+	line-height: 2;
+}
+
+a {
+	text-decoration: none;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+.main-title {
+	color: #778899;
+	text-align: center;
+	margin: 20px 20px;
+}
+
+.header-memu {
+	background-color: #778899;
+}
+
+.header-memu ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 20px;
+}
+
+.header-memu li {
+	display: inline-block;
+}
+
+.header-memu li a {
+	color: #f5f5f5;
+	font-weight: bold;
+	display: block;
+	height: 100%;
+	padding: 13px 30px;
+}
+
+.header-memu li a:hover {
+	color: #ffffff;
+}
+
+.top {
+	display: flex;
+	height: 600px;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-inner {
+	display: block;
+}
+
+.top-inner h1 {
+	font-weight: lighter;
+	letter-spacing: 0.1rem;
+	margin: 0;
+}
+
+.top-inner p {
+	color: #778899;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	margin: 0;
+}
+
+.container {
+	display: block;
+	padding: 0 10%;
+}
+
+.container table {
+	margin: 0 auto;
+}
+
+table .sns-name {
+	font-weight: bold;
+}
+
+.content-wrapper {
+	padding: 60px 0;
+}
+
+.content-wrapper h3 {
+	color: #778899;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+
+.about-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about-value {
+	width: auto;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+}
+
+.about-text {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	margin-top: 0;
+}
+
+.profile-img {
+	text-align: center;
+	margin-top: 0;
+}
+
+.profile-img img {
+	width: 300px;
+}
+
+.skills-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.skill-item {
+	display: inline-block;
+	background-color: #ffffff;
+	margin: 10px;
+	width: auto;
+}
+
+.skill-item h4 {
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 5px 0;
+	color: #778899;
+}
+
+.skill-item p {
+	display: inline-block;
+	padding: 0 20px;
+	margin: 5px 0;
+}
+
+.skill-img {
+	display: block;
+	text-align: center;
+}
+
+.skill-img img {
+	width: 50%;
+	height: auto;
+}
+
+.works-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.work-item {
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 20px;
+	margin: 10px;
+	width: auto;
+	text-align: center;
+}
+
+.work-item p {
+	text-align: center;
+}
+
+.blog-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.blog-item {
+	padding: 20px;
+	margin: 10px;
+	width: 200px;
+}
+
+a.readmore-link {
+	font-weight: bold;
+	display: block;
+	height: auto;
+	padding: 13px 15px;
+}
+
+a.readmore-link, a.sns-link {
+	color: #000022;
+}
+
+a.readmore-link:hover, a.sns-link:hover {
+	color: #6e7f8f;
+}
+
+.works-wrapper img {
+	width: 50%;
+	height: auto;
+}
+
+/*
+PC基準で生成
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	background-color: #f5f5f5;
+}
+
+body {
+	color: #000022;
+	font-family: "Meiryo", sans-serif;
 }
 
 main {
@@ -232,12 +469,6 @@ a.readmore-link:hover, a.sns-link:hover {
 	height: auto;
 }
 
-/* PC用 */
-@media all and (min-width: 767px) {
-
-}
-
-/* スマホ用 */
 @media all and (max-width: 580px) {
 	body {
 		font-size: 32px;
@@ -256,3 +487,8 @@ a.readmore-link:hover, a.sns-link:hover {
 		margin-bottom: 20px;
 	}
 }
+
+@media all and (min-width: 767px) {
+
+}
+*/
