@@ -62,6 +62,10 @@ a {
 	padding: 13px 15px;
 }
 
+.header-memu li a:hover {
+	color: #ffffff;
+}
+
 .top {
 	display: flex;
 	height: 600px;
@@ -142,7 +146,9 @@ table .sns-name {
 }
 
 .skills-wrapper {
-	display: flex;
+	/*display: flex;*/
+	display: inline-block;
+	width: 25%;
 	justify-content: center;
 	margin-bottom: 20px;
 }
@@ -156,6 +162,9 @@ table .sns-name {
 
 .skill-item h4 {
 	display: inline-block;
+	position: absolute;
+	top: 37%;
+	width: 100%;
 	padding: 0 20px;
 	margin: 5px 0;
 	color: #778899;
@@ -169,6 +178,7 @@ table .sns-name {
 
 .skill-img {
 	display: block;
+	position: relative;
 	text-align: center;
 }
 
@@ -230,9 +240,7 @@ a.readmore-link:hover, a.sns-link:hover {
 
 /* PC用 */
 @media screen and (min-width: 767px) {
-	.header-memu li a:hover {
-		color: #ffffff;
-	}
+
 }
 
 /* スマホ用 */
