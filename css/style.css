@@ -24,27 +24,6 @@ p {
 		opacity: 1
 	}
 }
-
-/* PC用 */
-@media screen and (min-width: 767px) {
-	.header-memu li a:hover {
-		color: #ffffff;
-	}
-}
-
-/* スマホ用 */
-@media screen and (max-width: 500px) {
-	.top-inner h1 {
-		font-size: 50px;
-	}
-
-	.top-inner p {
-		font-size: 30px;
-	}
-	.content-wrapper h3 {
-		font-size: 45px;
-	}
-}
 .main-title {
 	color: #778899;
 	text-align: center;
@@ -240,4 +219,26 @@ a.readmore-link:hover, a.sns-link:hover {
 .works-wrapper img {
 	width: 70%;
 	height: auto;
+}
+
+
+/* PC用 */
+@media screen and (min-width: 767px) {
+	.header-memu li a:hover {
+		color: #ffffff;
+	}
+}
+
+/* スマホ用 */
+@media screen and (max-width: 500px) {
+	.top-inner h1 {
+		font-size: 50px;
+	}
+
+	.top-inner p {
+		font-size: 30px;
+	}
+	.content-wrapper h3 {
+		font-size: 45px;
+	}
 }
