@@ -25,69 +25,6 @@ p {
 	}
 }
 
-/* PC用 */
-@media screen and (min-width: 767px) {
-	.header-memu ul {
-		text-align: center;
-		list-style-type: none;
-		padding: 0;
-		margin: 20px 20px;
-	}
-
-	.header-memu li {
-		display: inline-block;
-	}
-
-	.header-memu li a {
-		color: #f5f5f5;
-		font-weight: bold;
-		text-decoration: none;
-		display: block;
-		height: 100%;
-		padding: 13px 15px;
-	}
-
-	.header-memu li a:hover {
-		color: #ffffff;
-	}
-}
-
-/* スマホ用 */
-@media screen and (max-width: 500px) {
-	.header-memu ul {
-		text-align: center;
-		list-style-type: none;
-		padding: 0;
-		margin: 20px 20px;
-	}
-
-	.header-memu li a {
-		color: #f5f5f5;
-		font-weight: bold;
-		font-size: 30px;
-		text-decoration: none;
-		display: block;
-		height: 100%;
-		padding: 13px 15px;
-	}
-
-	.header-memu li a:hover {
-		color: #ffffff;
-	}
-
-	.top-inner h1 {
-		font-size: 50px;
-	}
-
-	.top-inner p {
-		font-size: 30px;
-	}
-
-	.content-wrapper h3 {
-		font-size: 45px;
-	}
-}
-
 .main-title {
 	color: #778899;
 	text-align: center;
@@ -96,6 +33,26 @@ p {
 
 .header-memu {
 	background-color: #778899;
+}
+
+.header-memu ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 20px;
+}
+
+.header-memu li {
+	display: inline-block;
+}
+
+.header-memu li a {
+	color: #f5f5f5;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	padding: 13px 15px;
 }
 
 .top {
@@ -263,4 +220,26 @@ a.readmore-link:hover, a.sns-link:hover {
 .works-wrapper img {
 	width: 70%;
 	height: auto;
+}
+
+/* PC用 */
+@media screen and (min-width: 767px) {
+	.header-memu li a:hover {
+		color: #ffffff;
+	}
+}
+
+/* スマホ用 */
+@media screen and (max-width: 480px) {
+	.top-inner h1 {
+		font-size: 50px;
+	}
+
+	.top-inner p {
+		font-size: 30px;
+	}
+
+	.content-wrapper h3 {
+		font-size: 45px;
+	}
 }
