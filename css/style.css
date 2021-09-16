@@ -17,18 +17,26 @@ p {
 }
 
 @keyframes fadein {
-	0% {opacity: 0}
-	100% {opacity: 1}
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
 }
 
+/* PC用 */
 @media screen and (min-width: 767px) {
-	/* PC用 */
 	.header-memu li a:hover {
 		color: #ffffff;
 	}
+	.top-inner p {
+		font-size: 100px;
+	}
 }
+
+/* スマホ用 */
 @media screen and (max-width: 480px) {
-	/* スマホ用 */
 	.top-inner h1 {
 		font-size: 50px;
 	}
