@@ -250,4 +250,9 @@ a.readmore-link:hover, a.sns-link:hover {
 	.content-wrapper h3 {
 		font-size: 45px;
 	}
+
+	.skills-wrapper {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
 }
