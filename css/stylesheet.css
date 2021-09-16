@@ -233,12 +233,12 @@ a.readmore-link:hover, a.sns-link:hover {
 }
 
 /* PC用 */
-@media screen and (min-width: 767px) {
+@media all and (min-width: 767px) {
 
 }
 
 /* スマホ用 */
-@media screen and (max-width: 580px) {
+@media all and (max-width: 580px) {
 	body {
 		font-size: 32px;
 	}
