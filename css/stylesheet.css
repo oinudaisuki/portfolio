@@ -162,7 +162,6 @@ table .sns-name {
 
 .skill-item h4 {
 	display: inline-block;
-	position: absolute;
 	top: 37%;
 	width: 100%;
 	padding: 0 20px;
@@ -172,6 +171,7 @@ table .sns-name {
 
 .skill-item p {
 	display: inline-block;
+	position: absolute;
 	padding: 0 20px;
 	margin: 5px 0;
 }
