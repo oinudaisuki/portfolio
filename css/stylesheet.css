@@ -242,9 +242,7 @@ a.readmore-link:hover, a.sns-link:hover {
 	}
 
 	.skills-wrapper, .works-wrapper {
-		display: flex;
-		width: 80%;
-		margin: 0 auto;
+		flex-flow: row;
 	}
 }
 
