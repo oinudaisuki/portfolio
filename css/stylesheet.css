@@ -76,6 +76,7 @@ a {
 
 .top-inner {
 	display: block;
+	text-align: center;
 }
 
 .top-inner h1 {
@@ -185,9 +186,9 @@ table .sns-name {
 
 .works-wrapper {
 	display: flex;
-	justify-content: center;
-	margin: 0 auto;
+	flex-flow: column;
 	width: 80%;
+	margin: 0 auto;
 }
 
 .work-item {
